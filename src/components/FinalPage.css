@@ -1,0 +1,27 @@
+.heading{
+margin: 2rem 0 5rem 0;
+}
+
+.primary_text,
+.heading,
+.final_score{
+    text-align: center;
+}
+
+.play_again_btn{
+    display: block;
+    margin: 5rem auto 0 auto;
+    outline: 0;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 10px 1rem;
+    letter-spacing: 2px;
+    background: black;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.play_again_btn:hover{
+    background: royalblue;
+}

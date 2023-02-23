@@ -1,0 +1,46 @@
+.header, .primary-text {
+    text-align: center;
+}
+
+.header{
+    margin: 2rem 0 5rem 0;
+}
+
+.username_input{
+    border: 1px solid black;
+    background: whitesmoke;
+    outline: 0;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 25px;
+    display: block;
+    margin: 2px auto 5rem auto;
+    font-size: 1rem;
+}
+
+.username_input::placeholder{
+    text-align: center;
+}
+
+
+.start-btn{
+    border: 0;
+    outline: 0;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    background: black;
+    color: whitesmoke;
+    font-weight: 800;
+    letter-spacing: 2px;
+    display: block;
+    margin: 2px auto;
+}
+
+.top_score{
+    font-weight: 800;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}

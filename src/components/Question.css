@@ -1,0 +1,45 @@
+.question {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer{
+    padding: 10px;
+    background: black;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 1rem 0;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.answer:hover{
+    background: royalblue;
+}
+
+.score {
+    font-weight: 800;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.question_number{
+    font-weight: 800;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
